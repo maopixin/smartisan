@@ -1,21 +1,19 @@
-# tt
+# README
 
-> A Vue.js project
+用vue,vue-router,vuex写的锤子官网项目。
+### 项目结构
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for proasduction and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+config   //配置文件，系统默认
+node_modules //依赖，系统默认
+src //开发文件
+	--assents //公用的样式图片
+    --getData //获取数据的方法
+        --methods.js
+    --router //页面的路由信息
+    --store //状态管理文件
+	--views //页面组件
+    app.vue 
+	main.js //入口js文件
+    index.html //模板html
+```
