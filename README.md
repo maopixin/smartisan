@@ -15,5 +15,4 @@ src //开发文件
 	--views //页面组件
     app.vue 
 	main.js //入口js文件
-    index.html //模板html
 ```
